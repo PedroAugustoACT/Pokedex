@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
-import {View, Text, StyleSheet, Touchable, Image, ButtonProps, Button, TouchableOpacity, Alert} from 'react-native';
+import React from "react";
+import {View, Text, Image, TouchableOpacity} from 'react-native';
 import {Feather} from '@expo/vector-icons'
 import { styles } from './styles';
 
-export function Homepage() {
+export function Home() {
   return (
     <View style={styles.containerBackground}>
         <Image 
@@ -13,8 +13,8 @@ export function Homepage() {
         <Text style={styles.txtSubtitle}>Descubra e viage pelo mundo Pokémon</Text>
         <View style={styles.buttonContainer}>
             <TouchableOpacity style={styles.buttonBox}>
-                <Text style={styles.txtButton}>Vamos lá</Text>
-                <Feather name="arrow-right" size={22} color='white' /> 
+                <Text style={styles.txtButton}>Começar</Text>
+                <Feather name="arrow-right" size={22} color='#2C2A9E' /> 
             </TouchableOpacity>
         </View>
         <View style={styles.footer}>

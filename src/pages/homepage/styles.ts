@@ -2,6 +2,9 @@ import { StyleSheet } from 'react-native';
 
 const redPoke = '#F63837'
 const bluePoke = '#2E6B9F'
+const borderPoke = '#2C2A9E'
+const yellowPoke = '#FFCF03'
+
 export const styles = StyleSheet.create({
 
     containerBackground:{
@@ -25,17 +28,18 @@ export const styles = StyleSheet.create({
     },
     txtButton:{
         fontSize: 22,
-        color:'white',
+        color: borderPoke,
     },
     buttonBox:{
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'center', 
-        borderWidth: 1,
-        borderRadius: 7,
+        borderWidth: 2,
+        borderRadius: 10,
         width: '100%',
         height: '100%',
-        borderColor: 'white',
+        borderColor: borderPoke,
+        backgroundColor: yellowPoke,
     },
     footer:{
         display: "flex",

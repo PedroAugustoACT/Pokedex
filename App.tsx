@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import {useFonts, Montserrat_400Regular, Montserrat_500Medium, Montserrat_700Bold } from "@expo-google-fonts/montserrat";
 import AppLoading from 'expo-app-loading';
 
-import { Homepage } from './src/pages/homepage';
+import { Routes } from './src/routes';
 
 export default function App() {
 
@@ -21,7 +21,7 @@ export default function App() {
   
   return (
     <View style={styles.container}>
-        <Homepage/>
+      <Routes />
       <StatusBar style="auto" />
     </View>
   );
